@@ -1,8 +1,8 @@
 pipeline {
 
   environment {
-    dockerimagename = "naqoda/centos-apache-php"
-    dockerImage = "naqoda/centos-apache-php"
+    dockerimagename = "nodejsdockerfile"
+    dockerImage = "nodejsdockerfile"
   }
 
   agent any
@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/umarmaan882/test19th.git'
+        git 'https://github.com/shazforiot/nodeJs-MongoDB-Nginx-Docker-Tutorial.git'
       }
     }
 
