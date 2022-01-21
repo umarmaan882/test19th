@@ -2,7 +2,7 @@ pipeline {
 
   environment {
     dockerimagename = "naqoda/centos-apache-php"
-    dockerImage = ""
+    dockerImage = "naqoda/centos-apache-php"
   }
 
   agent any
